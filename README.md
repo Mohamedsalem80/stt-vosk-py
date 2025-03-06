@@ -25,7 +25,7 @@ stt-vosk-py/
 │── harvard.wav                      # Example input audio file
 │── sample.wav                       # Processed audio file
 │── srt-3.5.3-py3-none-any.whl       # Wheel file for SRT
-│── vosk-model-en-us-medium-lgraph/  # Pre-trained medium Vosk model (❗ Required)
+│── vosk-model/  # Pre-trained medium Vosk model (❗ Required)
 ```
 
 ---
@@ -68,11 +68,13 @@ pip install srt-3.5.3-py3-none-any.whl
 
 ## 🚀 Usage
 
-1. Replace (`harvard.wav`) with your input audio file in the project directory and edit the `AUDIO_INPUT` to match the file name.
+1. Replace `harvard.wav` with your input audio file in the project directory and update `AUDIO_INPUT` in `util.py` to match the file name.
 2. Run the main script:  
    ```sh
    python main.py
    ```
+   #### It will display `Do you want to transcribe audio live? (y/n): `
+   #### Choose whether you want to transcribe live or not
 3. The transcribed text will be **printed in the console**.  
 
 ---
