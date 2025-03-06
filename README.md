@@ -48,9 +48,16 @@ pip install -r requirements.txt
 
 #### 🛠 **Manual Installation**
 ```sh
+pip install pyaudio
+```
+```sh
 pip install pydub
-pip install vosk
+```
+```sh
 pip install srt-3.5.3-py3-none-any.whl
+```
+```sh
+pip install vosk
 ```
 
 ### 3️⃣ Download & Set Up the Vosk Model  
