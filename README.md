@@ -68,7 +68,7 @@ pip install srt-3.5.3-py3-none-any.whl
 
 ## 🚀 Usage
 
-1. Ensure your input audio file (`harvard.wav`) is available in the project directory.  
+1. Replace (`harvard.wav`) with your input audio file in the project directory and edit the `AUDIO_INPUT` to match the file name.
 2. Run the main script:  
    ```sh
    python main.py
