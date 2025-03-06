@@ -4,8 +4,7 @@ import json
 from vosk import Model, KaldiRecognizer
 from util import convert_audio
 
-# MODEL_PATH = "vosk-model-en-us-small" # Lightweight wideband model for embedded devices
-MODEL_PATH = "vosk-model-en-us-medium-lgraph" # Medium model for general use
+MODEL_PATH = "vosk-model" # Medium model for general use
 AUDIO_INPUT = "harvard.wav"
 AUDIO_PROCESSED = "sample.wav"
 SAMPLE_RATE = 16000

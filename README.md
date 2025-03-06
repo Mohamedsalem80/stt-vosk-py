@@ -26,7 +26,6 @@ stt-vosk-py/
 │── sample.wav                       # Processed audio file
 │── srt-3.5.3-py3-none-any.whl       # Wheel file for SRT
 │── vosk-model-en-us-medium-lgraph/  # Pre-trained medium Vosk model (❗ Required)
-│── vosk-model-en-us-small/          # Pre-trained small Vosk model (❗ Required)
 ```
 
 ---
@@ -56,11 +55,14 @@ pip install srt-3.5.3-py3-none-any.whl
 
 ### 3️⃣ Download & Set Up the Vosk Model  
 
-1. Download the Vosk models from [Vosk Models](https://alphacephei.com/vosk/models).  
-2. Extract the models and rename them as:
-   - `vosk-model-en-us-medium-lgraph/`
-   - `vosk-model-en-us-small/`
-3. Place them inside the **project directory**.
+1. Download the Vosk models from [Vosk Models](https://alphacephei.com/vosk/models).
+
+ #### Example for English US models
+ ![Vosk Model Setup](img\en-models.png)
+2. Extract the model and rename it as:
+   - `vosk-model`
+
+3. Place it inside the **project directory**.
 
 ---
 
