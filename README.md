@@ -58,7 +58,7 @@ pip install srt-3.5.3-py3-none-any.whl
 1. Download the Vosk models from [Vosk Models](https://alphacephei.com/vosk/models).
 
  #### Example for English US models
- ![Vosk Model Setup](img\en-models.png)
+![Example for English US models](./img/en-models.png)
 2. Extract the model and rename it as:
    - `vosk-model`
 
