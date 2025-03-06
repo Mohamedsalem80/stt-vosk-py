@@ -82,6 +82,8 @@ pip install vosk
    ```
    #### It will display `Do you want to transcribe audio live? (y/n): `
    #### Choose whether you want to transcribe live or not
+   - If you enter y it will start collecting streams of audio live from you microphone and transcribe it.
+   - If you enter n it will trnascribe `AUDIO_INPUT` file, which is `harvard.wav`.
 3. The transcribed text will be **printed in the console**.  
-
+   -  Enjoy
 ---
